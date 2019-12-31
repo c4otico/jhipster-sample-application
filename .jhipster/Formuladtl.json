@@ -1,0 +1,61 @@
+{
+    "name": "Formuladtl",
+    "fields": [
+        {
+            "fieldName": "dtlid",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dtlseq",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "itemcode",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 18
+        },
+        {
+            "fieldName": "qty",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "oldItemcode",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 18
+        },
+        {
+            "fieldName": "refxiNumber",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 18
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "formulaHdr",
+            "otherEntityRelationshipName": "formuladtl",
+            "relationshipName": "frmlid",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191231150140",
+    "javadoc": "Formuladtl",
+    "entityTableName": "formuladtl",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

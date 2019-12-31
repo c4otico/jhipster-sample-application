@@ -1,0 +1,38 @@
+/**
+Este diagrama solo tiene algunas propiedades de cada tabla, las tablas en realidad tienen muchisima más información.
+*/
+
+/*
+ *Formula Header: contiene la información "básica" de la formula  
+ */
+entity FormulaHdr {
+	xiNumber String maxlength(18) required
+	frmlname String maxlength(50) required
+	frmlType String maxlength(32) required /* frml_type*/
+	profileNumber String maxlength(18)
+	userNumber String maxlength(18)
+	bookNumber String maxlength(18)
+	mfgNumber String maxlength(18)
+	mfglocation String maxlength(8)
+	cbaliascode String maxlength(18)
+	description String maxlength(800)
+	customer String maxlength(32)
+	baseApplication String maxlength(32) //Nombre Real Application pero es palabra restringida
+}
+
+/**
+ * Formuladtl
+ */
+entity Formuladtl {
+	dtlid	Integer
+	dtlseq	Integer
+	itemcode	String maxlength(18)
+	qty	Integer
+	oldItemcode	String maxlength(18) /*old_itemcode*/
+	refxiNumber	String maxlength(18)
+}
+
+relationship ManyToOne {
+	Formuladtl{frmlid} to FormulaHdr
+}
+
