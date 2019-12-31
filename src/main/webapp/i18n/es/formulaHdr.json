@@ -1,0 +1,33 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "formulaHdr": {
+      "home": {
+        "title": "Formula Hdrs",
+        "createLabel": "Crear nuevo Formula Hdr",
+        "createOrEditLabel": "Crear o editar Formula Hdr",
+        "notFound": "Ningún Formula Hdrs encontrado"
+      },
+      "created": "Un nuevo Formula Hdr ha sido creado con el identificador {{ param }}",
+      "updated": "Un Formula Hdr ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Formula Hdr ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Formula Hdr {{ id }}?"
+      },
+      "detail": {
+        "title": "Formula Hdr"
+      },
+      "xiNumber": "Xi Number",
+      "frmlname": "Frmlname",
+      "frmlType": "Frml Type",
+      "profileNumber": "Profile Number",
+      "userNumber": "User Number",
+      "bookNumber": "Book Number",
+      "mfgNumber": "Mfg Number",
+      "mfglocation": "Mfglocation",
+      "cbaliascode": "Cbaliascode",
+      "description": "Description",
+      "customer": "Customer",
+      "baseApplication": "Base Application"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "formuladtl": {
+      "home": {
+        "title": "Formuladtls",
+        "createLabel": "Create a new Formuladtl",
+        "createOrEditLabel": "Create or edit a Formuladtl",
+        "notFound": "No Formuladtls found"
+      },
+      "created": "A new Formuladtl is created with identifier {{ param }}",
+      "updated": "A Formuladtl is updated with identifier {{ param }}",
+      "deleted": "A Formuladtl is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Formuladtl {{ id }}?"
+      },
+      "detail": {
+        "title": "Formuladtl"
+      },
+      "dtlid": "Dtlid",
+      "dtlseq": "Dtlseq",
+      "itemcode": "Itemcode",
+      "qty": "Qty",
+      "oldItemcode": "Old Itemcode",
+      "refxiNumber": "Refxi Number",
+      "frmlid": "Frmlid"
+    }
+  }
+}
